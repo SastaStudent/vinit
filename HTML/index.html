@@ -5,53 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <style>
-        div{
+        .container {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            width: 100%;
+            background: radial-gradient(circle, blue, rgb(112, 67, 235), rgb(113, 90, 240));
+            /* min-height: 100vh; This ensures the background gradient covers the full page */
         }
+        .btn {
+            height: 20px;
+            width: 100px;
+            border: 1px solid red;
+            color: aliceblue;
+            font-size: large;
+            font-weight: bold;
+            background: red;
+            padding: 2px;
+            margin-bottom: 100px;
+        }
+        .btn:hover {
+            color: black;
+            background-color: blue;
+            font-size: large;
+            font-weight: bold;
+            
+        }
+        #Inspiration{
+            color: rgb(18, 18, 160);
+            font-size: 40px;
+            font-weight: bold;
+            padding: 15px;
+            /* text-decoration-color: red; */
+            /* border: 1px solid red; */
+        }
+        .container2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+            width: 100%;
+            
+        }
+        /* #babaSaheb{
+            width: 100%;
+        } */
+        #dil{
+            margin-top: 4%;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            width: 80%;
+        }
+        .think{
+            font-size: larger;
+            font-weight: bold;
+        }
+        
     </style>
 </head>
 <body>
-    <div>
-        <h1 style="font-size: 50px;">Vinit  Yadav</h1>
-    
-    <blockquote style="font-size: 50px; color: blue; font-weight: bold;">"Jay Bheem"</blockquote>
-    <img src="./image.png" alt="htt"
-    width="450"
-    height="500"
-    />
-    <caption><br/> Vinit Yadav
-    </caption>
+    <div class="container">
+        <h1>Vinit Yadav</h1>
+        <div></div>
+        <div id="Inspiration">"Jay Bheem, Yadav"</div>
+        <img src="./image.png" alt="htt" width="450" height="500" />
+        <caption><br/> Vinit Yadav</caption>
 
-    <h2><th>Biography</th></h2>
-    <ul><li>Btech 4th Yr Student</li>
-    <li>Competetive programmar</li>
-    <li>Java Student</li>
-    <li>TA at coding ninjas</li>
-    <li>5 star at codechef</li>
-    <li>Topper At codestudio</li>
-    <li>Good learner</li>
-    <li>Code debuger</li>
-    <li>Teacher</li>
-    <li>Web developer</li>
-    <li>Senior Data Scientist</li>
-</ul>
+        <h2>Biography</h2>
+        <ul>
+            <li>Btech 4th Year Student</li>
+            <li>Competitive programmer</li>
+            <li>Java Student</li>
+            <li>TA at Coding Ninjas</li>
+            <li>5 star at CodeChef</li>
+            <li>Topper at CodeStudio</li>
+            <li>Good learner</li>
+            <li>Code debugger</li>
+            <li>Teacher</li>
+            <li>Web developer</li>
+            <li>Senior Data Scientist</li>
+        </ul>
 
-    <h2><th>Acheivement</th></h2>
-    <ul>
-        <li>
-        Complete 10th in Yr 2019
-    </li>
-     
-    <li>Complete 12th in Yr 2021</li>
-    <li>Complete Java Intro+DSA in Yr 2022</li>
-    <li>Complete Competetive programming using cpp in Yr 2023</li>
-    <li>Complete TA ship 1 July 2024 At coding ninjas</li>
-    <li>Complete nothing 
-    </ul>
+        <h2>Achievements</h2>
+        <ul>
+            <li>Completed 10th in 2019</li>
+            <li>Completed 12th in 2021</li>
+            <li>Completed Java Intro + DSA in 2022</li>
+            <li>Completed Competitive Programming using C++ in 2023</li>
+            <li>Completed TA-ship in July 2024 at Coding Ninjas</li>
+        </ul>
     </div>
-
+    <div class="container2">
+        <div id="dil">
+            <div id="#babaSaheb">
+                <img src="https://wallpaperaccess.com/full/9142085.jpg" width="450px" height="500px" alt="Baba Saheb">
+            </div>
+            <blockquote class="think">I learn lessons from life and our inspiration baba saheb also known
+                Bheem Rao Ambedkar who support and motivate us to upskill ourself and grab
+                sarkari job.
+                And they also provides us <span>Reservation</span> to get sarkari job without
+                having relvant skills.
+            </blockquote>
+        </div>
+        
+        <div class="btn">Hire Me</div>
+    </div>
 </body>
 </html>
