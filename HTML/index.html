@@ -25,6 +25,9 @@
             /* min-height: 100vh; This ensures the background gradient covers the full page */
         }
         .photo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 90%;
 
         }
@@ -60,8 +63,6 @@
             font-weight: bold;
             padding: 15px;
             width: 90%;
-            /* text-decoration-color: red; */
-            /* border: 1px solid red; */
         }
         .container2{
             display: flex;
@@ -89,6 +90,13 @@
             font-weight: bold;
             padding: 1%;
             margin-top: 1%;
+        }
+
+        @media (min-width: 720px) {
+            img {
+                width: 450px;  /* Set width for larger screens */
+                height: 500px; /* Set height for larger screens */
+            }
         }
         
     </style>
@@ -130,7 +138,7 @@
     <div class="container2">
         <div id="dil">
             <div id="babaSaheb" class="photo">
-                <img src="https://wallpaperaccess.com/full/9142085.jpg" width="450px" height="500px" alt="Baba Saheb">
+                <img src="https://wallpaperaccess.com/full/9142085.jpg" alt="Baba Saheb">
             </div>
             <blockquote class="think">I learn lessons from life and our inspiration baba saheb also known
                 Bheem Rao Ambedkar who support and motivate us to upskill ourself and grab
